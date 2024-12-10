@@ -9,7 +9,7 @@ A Python-based tool for scanning networks and discovering connected devices. Thi
 
 ## 📋 Requirements
 - Python 3.8 or higher
-- `scapy` library (Install it via pip: `pip install scapy`)
+- `scapy` library (Install it via pip: `pip install scapy` or `pip3 install scapy-python3`)
 
 ## ⚙️ Installation
 1. **Clone the Repository**  
@@ -17,3 +17,7 @@ A Python-based tool for scanning networks and discovering connected devices. Thi
    ```bash
    git clone https://github.com/username/port-network-scanner.git
    cd port-network-scanner
+
+## Example 
+- `sudo python3 network_scanner.py -t 192.168.129.2`
+- `sudo python3 network_scanner.py --target 192.168.129.1/24`
