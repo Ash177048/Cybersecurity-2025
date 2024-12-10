@@ -7,11 +7,11 @@ A Python-based tool for scanning networks and discovering connected devices. Thi
 - 💾 **Save Scan Results**: Option to export the scan results to a file (e.g., `scan_results.txt`).
 - 🛠️ **Customizable**: Easy to extend with additional features like port scanning or advanced analysis.
 
-- ## 📋 Requirements
+## 📋 Requirements
 - Python 3.8 or higher
 - `scapy` library (Install it via pip: `pip install scapy`)
 
-- ## ⚙️ Installation
+## ⚙️ Installation
 1. **Clone the Repository**  
    Clone this project to your local machine:
    ```bash
