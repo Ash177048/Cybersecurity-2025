@@ -25,7 +25,9 @@ A Python-based tool for scanning networks and discovering connected devices. Thi
 Basic Scan :
 - `sudo python3 network_scanner.py -t 192.168.129.2`
 - `sudo python3 network_scanner.py --target 192.168.129.1/24`
+
 Save Results to File :
 - `sudo python3 network_scanner.py -t 192.168.1.1/24 -o results.txt`
+
 Set Timeout and Enable Verbose Output :
 - `sudo python3 network_scanner.py -t 192.168.1.1/24 --timeout 2 --verbose`
